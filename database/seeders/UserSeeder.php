@@ -4,19 +4,19 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\User;
 
-class DatabaseSeeder extends Seeder
+class UserSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        $this->call([
-            UserSeeder::class,
-            RoleSeeder::class,
-            PermissionSeeder::class,
-            UserRolePermissionSeeder::class,
+        User::create([
+            'name' => 'Admin User',
+            'email' => 'admin@mitienda.com',
+            'password' => bcrypt('admin-mitienda'),
         ]);
     }
 }
