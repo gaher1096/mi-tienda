@@ -42,6 +42,20 @@ php artisan db:seed
 
 ```
 
+## Tabler Icons
+
+Hemos incorporado Tabler Icons a nuestro proyecto para mejorar la experiencia visual y la estética general. Los iconos se utilizan en diversas partes de la interfaz de usuario para proporcionar una representación visual más clara de las acciones y elementos.
+
+### Integración
+
+Los iconos de Tabler están integrados directamente en nuestro proyecto y se utilizan mediante [nombre del componente/icono]. Puedes encontrar la lista completa de iconos disponibles en la 📚 [documentación oficial de Tabler Icons](https://tabler.io/icons).
+
+### Personalización
+
+Si deseas personalizar los iconos o ajustar su apariencia, puedes consultar la  📚[documentación de Tabler Icons](https://tabler.io/docs/icons) para obtener instrucciones detalladas sobre cómo hacerlo.
+
+Para más detalles, consulta la 📚 [documentación de Tabler Icons](https://tabler.io/docs/icons).
+
 ## Contribución 🤝
 
 ¡Gracias por considerar contribuir a Mi Tienda! Si deseas contribuir, sigue estos pasos:
